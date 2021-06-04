@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Inside Micro 1'
                 echo 'Pulling... ' + env.GIT_BRANCH
-                echo 'Pulling... ' + env.GIT_REPO
+                echo 'Pulling... ' + env.GIT_REPO_NAME
             }
         }
     }
