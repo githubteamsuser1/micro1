@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Download Code') {
             steps {
+                echo 'Inside Micro 1'
                 echo env.BRANCH
             }
         }
